@@ -1,0 +1,4 @@
+repository "Kiosk@local"
+  path "/"
+    smartbranch "/main/UiTest02"                    
+     
