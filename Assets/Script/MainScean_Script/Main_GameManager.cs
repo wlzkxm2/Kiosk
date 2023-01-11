@@ -8,10 +8,10 @@ public class Main_GameManager : MonoBehaviour
 {
     [SerializeField] private Button GameStartBtn;
     [SerializeField] private Button GameScoreBtn;
-    [SerializeField] private Button GameSettingBtn;
+    // [SerializeField] private Button GameSettingBtn;
 
     [SerializeField] private GameObject GameScorePopup;
-    [SerializeField] private GameObject GameSettingPopup;
+    // [SerializeField] private GameObject GameSettingPopup;
     // [SerializeField] private GameObject ScorePopup;
 
     // [SerializeField] private Transform Potato;
@@ -30,7 +30,7 @@ public class Main_GameManager : MonoBehaviour
 
         GameStartBtn.onClick.AddListener(() => StartGame());
         GameScoreBtn.onClick.AddListener(() => LoadSaveScore());
-        GameSettingBtn.onClick.AddListener(() => GameSettingPopup.SetActive(true));
+        // GameSettingBtn.onClick.AddListener(() => GameSettingPopup.SetActive(true));
     }
     
     private void Update() {

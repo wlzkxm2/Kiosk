@@ -21,13 +21,13 @@ public class Mission_getter_setter : MonoBehaviour
         missionDic.Add(1, new MissionList("16200 ~ 18200원 이내로 구입하세요", 16200, 18200));
         missionDic.Add(2, new MissionList("치즈스틱 세개가 먹고 싶어요", "치즈 스틱", 3));
         missionDic.Add(3, new MissionList("치킨마요 버거 5개 먹고싶어요", "치킨 마요 버거", 5));
-        missionDic.Add(5, new MissionList("더블치즈 불고기버거를 포함해 30000원 이내로 구매하기", "더블치즈 불고기버거", 6400, 30000));
-        missionDic.Add(6, new MissionList("콘샐러드 다섯개를 먹고싶어요", "콘 샐러드", 5));
-        missionDic.Add(7, new MissionList("치킨버거 포함해서 5000원 이내로 구매해주세요", "치킨 버거", 3800, 5000));
-        missionDic.Add(8, new MissionList("치킨만 먹고싶어요", "치킨", 1));
-        missionDic.Add(9, new MissionList("아메리카노 다섯잔 주세요", "아메리카노", 5));
-        missionDic.Add(10, new MissionList("오징어링 포함해서 1만원 어치 사주세요", "오징어링", 10000, 12000));
-        missionDic.Add(11, new MissionList("더블치즈 불고기버거 10개 주세요", "더블치즈 불고기버거", 10));
+        missionDic.Add(4, new MissionList("더블치즈 불고기버거를 포함해 30000원 이내로 구매하기", "더블치즈 불고기버거", 6400, 30000));
+        missionDic.Add(5, new MissionList("콘샐러드 다섯개를 먹고싶어요", "콘 샐러드", 5));
+        missionDic.Add(6, new MissionList("치킨버거 포함해서 5000원 이내로 구매해주세요", "치킨 버거", 3800, 5000));
+        missionDic.Add(7, new MissionList("치킨만 먹고싶어요", "치킨", 1));
+        missionDic.Add(8, new MissionList("아메리카노 다섯잔 주세요", "아메리카노", 5));
+        missionDic.Add(9, new MissionList("오징어링 포함해서 1만원 어치 사주세요", "오징어링", 10000, 12000));
+        missionDic.Add(10, new MissionList("더블치즈 불고기버거 10개 주세요", "더블치즈 불고기버거", 10));
         // missionDic.Add(0, new MissionList("불고기 버거를 포함하여 12000원~ 13000원 이내로 구매하기", 12000, 13000));
         // missionDic.Add(0, new MissionList("불고기 버거를 포함하여 12000원~ 13000원 이내로 구매하기", 12000, 13000));
         // missionDic.Add(0, new MissionList("불고기 버거를 포함하여 12000원~ 13000원 이내로 구매하기", 12000, 13000));
@@ -36,7 +36,7 @@ public class Mission_getter_setter : MonoBehaviour
     }
 
     public void callMission(){
-        whatIsMission = Random.Range(0, 12);
+        whatIsMission = Random.Range(0, 11);
         // Debug.Log(whatIsMission);
     }
 
