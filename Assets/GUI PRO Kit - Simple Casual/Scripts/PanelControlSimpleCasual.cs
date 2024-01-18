@@ -6,9 +6,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace LayerLab
+namespace LayerLab.SimpleCasual
 {
-    public class PanelControlSimpleCasual : MonoBehaviour
+    public class PanelControlSimpleCasual: MonoBehaviour
     {
         private int page;
         private bool isReady;
